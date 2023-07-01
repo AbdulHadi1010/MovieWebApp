@@ -6,7 +6,6 @@ export default function TvShowCard({ props }) {
     <div>
       <img src={ImgLink + props.poster_path} alt="Poster" />
       <div>{props.original_name}</div>
-      <div>{props.overview}</div>
     </div>
   );
 }
